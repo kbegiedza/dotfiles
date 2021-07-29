@@ -1,0 +1,6 @@
+[user]
+	email = krzysztof.begiedza@gmail.com
+	name = Krzysztof Begiedza
+	signingkey = 9512519D8400CE98
+[commit]
+	gpgsign = true
