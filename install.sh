@@ -9,17 +9,14 @@ function copyToHome() {
             --exclude ".DS_Store" \
             --exclude "README.md" \
             --exclude "install.sh" \
-            -avh --no-perms . ~;
+            -avh --no-perms "$(dirname "${BASH_SOURCE}")" ~;
     source ~/.bash_profile;
+    source ~/.bashrc;
 }
 
 function startInstallation() {
-    START_PWD=$(pwd);
-    cd "$(dirname "${BASH_SOURCE}")";
-
     copyToHome;
 
-    cd $START_PWD;
     printf "${TXT_GREEN}\nInstallation completed!\nReady to hack!\n${TXT_NORMAL}";
 }
 
