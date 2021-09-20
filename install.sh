@@ -9,6 +9,8 @@ function copyToHome() {
             --exclude ".DS_Store" \
             --exclude "README.md" \
             --exclude "install.sh" \
+            --exclude "README_FRESH.md" \
+            --exclude "fresh_install.sh" \
             -avh --no-perms "$(dirname "${BASH_SOURCE}")" ~;
     source ~/.bash_profile;
     source ~/.bashrc;
