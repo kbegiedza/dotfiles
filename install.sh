@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 TXT_GREEN=`tput setaf 2`
 TXT_NORMAL=`tput sgr0`
