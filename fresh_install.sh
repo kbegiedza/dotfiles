@@ -42,7 +42,6 @@ function install_dependencies() {
         curl
 }
 
-
 function install_dev_tools() {
     ## install vs code
     VS_CODE_TMP='/tmp/vscode_deb_x64'
