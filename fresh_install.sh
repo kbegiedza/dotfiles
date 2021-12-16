@@ -39,7 +39,8 @@ function install_dependencies() {
         apt-transport-https \
         ca-certificates \
         lsb-release \
-        curl
+        curl \
+        gnupg2
 }
 
 function install_dev_tools() {
