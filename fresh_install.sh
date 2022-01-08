@@ -40,7 +40,8 @@ function install_dependencies() {
         ca-certificates \
         lsb-release \
         curl \
-        gnupg2
+        gnupg2 \
+        xclip
 }
 
 function install_dev_tools() {
