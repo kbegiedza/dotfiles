@@ -41,7 +41,8 @@ function install_dependencies() {
         lsb-release \
         curl \
         gnupg2 \
-        xclip
+        xclip \
+        net-tools
 }
 
 function install_dev_tools() {
