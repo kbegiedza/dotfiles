@@ -42,7 +42,8 @@ function install_dependencies() {
         curl \
         gnupg2 \
         xclip \
-        net-tools
+        net-tools \
+        gnome-sushi
 }
 
 function install_dev_tools() {
