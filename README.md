@@ -6,8 +6,8 @@
 
 ## Installation:
 0. (Fresh install? Start [here](README_FRESH.md))
-1. `git clone git@github.com:Ursanon/dotfiles.git .dotfiles`
-2. `./install.sh`
+1. `git clone https://github.com/kbegiedza/dotfiles.git`
+2. `./dotfiles/install.sh`
 
 ## Cheat sheet
 
