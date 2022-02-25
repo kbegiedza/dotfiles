@@ -10,3 +10,4 @@ if [ -x /usr/bin/dircolors ]; then
 fi
 
 alias xcp='xclip -selection clipboard'
+alias la='ls -lha'
