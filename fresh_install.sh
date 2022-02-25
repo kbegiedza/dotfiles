@@ -41,7 +41,9 @@ function install_dependencies() {
         lsb-release \
         curl \
         gnupg2 \
-        xclip
+        xclip \
+        net-tools \
+        gnome-sushi
 }
 
 function install_dev_tools() {
@@ -57,10 +59,6 @@ function install_dev_tools() {
     echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu \
          $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 
-    sudo groupadd docker
-    sudo usermod -aG docker $USER
-    newgrp docker
-
     sudo apt-get update &&
     sudo apt-get install -y docker-ce docker-ce-cli containerd.io &&
     sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose &&
@@ -68,6 +66,10 @@ function install_dev_tools() {
 
     curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
     sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
+
+    sudo groupadd docker
+    sudo usermod -aG docker $USER
+    newgrp docker
 }
 
 function install_extras() {

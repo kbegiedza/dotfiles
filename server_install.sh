@@ -34,7 +34,8 @@ function install_dependencies() {
         lsb-release \
         curl \
         gnupg2 \
-        xclip &&
+        xclip \
+	net-tools &&
     rm /usr/share/keyrings/docker-archive-keyring.gpg &&
     curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg &&
     echo \
