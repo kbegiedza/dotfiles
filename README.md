@@ -5,9 +5,9 @@
   - [Cheat sheet](#cheat-sheet)
 
 ## Installation:
-0. (Fresh install? Start [here](README_FRESH.md))
-1. `git clone https://github.com/kbegiedza/dotfiles.git`
-2. `./dotfiles/install.sh`
+1. Clone repo with: `git clone https://github.com/kbegiedza/dotfiles.git`
+2. (optional) Install dev-tools, vscode, brave browser, etc: `./dotfiles/fresh_install.sh`
+3. Install dotfiles: `./dotfiles/install.sh`
 
 ## Cheat sheet
 
