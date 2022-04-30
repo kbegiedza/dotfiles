@@ -18,9 +18,11 @@ function copyToHome() {
 }
 
 function startInstallation() {
-    copyToHome;
+    copyToHome
 
-    printf "${TXT_GREEN}\nInstallation completed!\nReady to hack!\n${TXT_NORMAL}";
+    dconf load /org/gnome/terminal/legacy/profiles:/ < gnome-terminal-profiles.dconf
+
+    printf "${TXT_GREEN}\nInstallation completed!\nReady to hack!\n${TXT_NORMAL}"
 }
 
 set -e;
