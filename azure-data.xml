@@ -12,6 +12,7 @@
         <entry key="event_hubs.consumer_group_name" value="$Default" />
         <entry key="monitor.monitor_table_rows" value="200" />
         <entry key="other.enable_auth_persistence" value="true" />
+        <entry key="rate.action_total_score" value="0" />
         <entry key="rate.next_rewind_date" value="1727083732534" />
         <entry key="telemetry.telemetry_allow_telemetry" value="true" />
       </map>
