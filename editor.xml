@@ -30,9 +30,9 @@
     <option name="ESCAPE_PASTED_TEXT" value="false" />
   </component>
   <component name="TodoConfiguration">
-    <pattern icon="important" case-sensitive="true" pattern="(?&lt;=\W|^)(?&lt;TAG&gt;BUG:)(\W|$)(.*)" />
-    <pattern icon="question" case-sensitive="true" pattern="(?&lt;=\W|^)(?&lt;TAG&gt;TODO:)(\W|$)(.*)" />
     <pattern icon="important" case-sensitive="true" pattern="\bNotImplementedException\b" />
+    <pattern icon="question" case-sensitive="true" pattern="(?&lt;=\W|^)(?&lt;TAG&gt;TODO:)(\W|$)(.*)" />
+    <pattern icon="important" case-sensitive="true" pattern="(?&lt;=\W|^)(?&lt;TAG&gt;BUG:)(\W|$)(.*)" />
   </component>
   <component name="YamlEditorOptions">
     <option name="useSmartPaste" value="false" />
