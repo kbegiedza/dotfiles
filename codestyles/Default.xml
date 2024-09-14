@@ -1,6 +1,6 @@
 <code_scheme name="Default" version="173">
   <option name="SOFT_MARGINS" value="120" />
-  <stylecop>
-    <option name="ENABLED" value="true" />
-  </stylecop>
+  <editorconfig>
+    <option name="ENABLED" value="false" />
+  </editorconfig>
 </code_scheme>
