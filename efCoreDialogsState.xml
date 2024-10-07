@@ -7,7 +7,7 @@
         <entry key="Common:ef27a669-50b1-48c8-a500-9a9406ab8b53:dbContext" value="VoxelCrypt.Talents.Infrastructure.EntityFramework.TalentsDbContext" />
         <entry key="Common:enableDiagnosticLogging" value="false" />
         <entry key="Common:noBuild" value="false" />
-        <entry key="Common:outputFolder" value="Migrations" />
+        <entry key="Common:outputFolder" value="EntityFramework/Migrations" />
         <entry key="Common:useDefaultConnection" value="true" />
       </map>
     </option>
