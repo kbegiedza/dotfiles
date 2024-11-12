@@ -4,6 +4,7 @@
       <map>
         <entry key="Common:522a977d-f64c-4b42-9122-d74187d34795:dbContext" value="Encrypto.PlayersDbContext" />
         <entry key="Common:buildConfiguration" value="Release" />
+        <entry key="Common:eb4c4ce2-8b9f-6b74-249a-3be97c56857f:dbContext" value="DatabasesSandbox.EntityFrameworkCore.Contexts.GameSandboxContext" />
         <entry key="Common:ef27a669-50b1-48c8-a500-9a9406ab8b53:dbContext" value="VoxelCrypt.Talents.Infrastructure.EntityFramework.TalentsDbContext" />
         <entry key="Common:enableDiagnosticLogging" value="false" />
         <entry key="Common:noBuild" value="false" />
