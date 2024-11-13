@@ -9,7 +9,7 @@
         <entry key="Common:enableDiagnosticLogging" value="false" />
         <entry key="Common:noBuild" value="false" />
         <entry key="Common:outputFolder" value="EntityFrameworkCore/Migrations" />
-        <entry key="Common:useDefaultConnection" value="false" />
+        <entry key="Common:useDefaultConnection" value="true" />
       </map>
     </option>
   </component>
