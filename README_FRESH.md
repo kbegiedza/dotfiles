@@ -1,1 +1,0 @@
-`./fresh_install.sh`
